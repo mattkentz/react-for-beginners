@@ -1,5 +1,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var ReactRouter = require('react-router');
+var Router = ReactRouter.Router;
+var Route = ReactRouter.Route;
+var Navigation = ReactRouter.Navigation;
+var createBrowserHistory = require('history/lib/createBrowserHistory');
 
 /*
  * App
@@ -73,6 +78,20 @@ var Order = React.createClass({
  * This will let us make <StorePicker />
  */
 
+var NotFound = React.createClass({
+
+  render: function () {
+    return (
+      <h1>Not found!</h1>
+    )
+  }
+
+});
+
+/*
+ * Not Found
+ */
+
 var StorePicker = React.createClass({
 
   render: function () {
@@ -88,5 +107,16 @@ var StorePicker = React.createClass({
 
 });
 
+/*
+ * Routes
+ */
 
-ReactDOM.render(<App />, document.querySelector('#main'));
+var routes = (
+  <Router history={createBrowserHistory()}>
+    <Route path="/" component={StorePicker}/>
+    <Route path="/store/:storeId" component={App} />
+    <Route path="*" component={NotFound} />
+  </Router>
+);
+
+ReactDOM.render(routes, document.querySelector('#main'));
