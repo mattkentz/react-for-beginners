@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaeceee0-7d92-433a-b863-6c05df5daf6e" name="Default" comment="Completed Order component">
+    <list default="true" id="aaeceee0-7d92-433a-b863-6c05df5daf6e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/main.js" afterPath="$PROJECT_DIR$/scripts/main.js" />
     </list>
     <ignored path="react-for-beginners.iws" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -312,7 +311,7 @@
       <option name="presentableId" value="Default" />
       <updated>1468937844574</updated>
       <workItem from="1468937850600" duration="13507000" />
-      <workItem from="1469430692596" duration="4523000" />
+      <workItem from="1469430692596" duration="5129000" />
     </task>
     <task id="LOCAL-00001" summary="Added Store creation form">
       <created>1469176724753</created>
@@ -370,11 +369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469449464818</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Setup re-base to sync up with firebase database">
+      <created>1469451399559</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1469451399559</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18030000" />
+    <option name="totallyTimeSpent" value="18636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="703" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -428,7 +434,8 @@
     <MESSAGE value="Added AddFishForm with shared state with App component" />
     <MESSAGE value="Load sample fishes on button click" />
     <MESSAGE value="Completed Order component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Order component" />
+    <MESSAGE value="Setup re-base to sync up with firebase database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup re-base to sync up with firebase database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -498,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="225">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
